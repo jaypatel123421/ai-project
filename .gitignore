@@ -1,5 +1,22 @@
+# Dependencies
 node_modules/
-uploads/*
-!uploads/.gitkeep
+*/node_modules/
+
+# Environment files
 .env
+.env.local
+server/.env
+client/.env
+client/.env.local
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build outputs
+dist/
+client/dist/
+
+# OS files
 .DS_Store
+*.log
